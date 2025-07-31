@@ -1,0 +1,246 @@
+body{
+    background-color: hsl(0, 0%, 3%);
+    color: white;
+    margin:0;
+    padding: 0;;
+    font-family: sans-serif;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+a{
+    color: transparent;
+    text-decoration: none;
+    color: white;
+}
+
+nav{
+    background-color: hsl(0, 0%, 0%);
+    width: 100%;
+    position: fixed;
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+    border-bottom: 1px solid white;
+}
+
+nav div{
+    display: flex;
+    align-content: space-around;
+    gap: 20px;
+}
+
+nav #nav_div1{
+    width: 50%;
+}
+
+nav #nav_div2{
+    margin-right: auto;
+    align-items: center;
+}
+
+nav img{
+    height: 80px;
+    width: 80px;
+    margin: 10px;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 50px;
+    margin-top: 0px;
+    margin-bottom: 80px;
+}
+
+#ban_div{
+    background-color:hsl(0, 0%, 79%) ;
+    color: black;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#ban_div div{
+    width: 43%;
+}
+
+#ban_div h3{
+    color: hsl(0, 0%, 10%);
+    font-weight: 300;
+}
+
+
+
+
+
+
+#how_div{
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#how_div div{
+    width: 43%;
+}
+
+#how_div h3{
+    font-weight: 300;
+}
+
+
+
+
+
+
+#how_use_div{
+    background-color:hsl(0, 0%, 79%) ;
+    color: black;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    line-height: 1.2;
+}
+
+#how_use_div div{
+    width: 43%;
+}
+
+#how_use_div h3{
+    color: hsl(0, 0%, 10%);
+    font-weight: 300;
+}
+
+#submit_button {
+    cursor: pointer;
+    display: inline-block;
+    border:1px solid white;
+    border-radius: 10px;
+    padding: 15px;
+    transition: 0.1s linear;
+}
+
+#submit_button::selection{
+    background-color: transparent;
+}
+
+
+#submit_button:hover{
+    background-color: hsl(0, 0%, 20%);
+}
+
+#submit_button:active{
+    transform: scale(2, 2);
+}
+
+#prices_div{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 90%;
+    align-self: center;
+    line-height: 2.6;
+}
+
+
+.pannels_class_corleaon{
+
+    font-size: 24px;
+    font-weight: 300;
+    border: 1px solid white;
+    color: rgb(255, 255, 255);
+    border-radius: 15px;
+    padding: 10px;
+    background-color: hsl(0, 100%, 22%);
+
+}
+
+.pannels_class_lymhurst{
+
+    font-size: 24px;
+    font-weight: 300;
+    border: 1px solid white;
+    color: black;
+    border-radius: 15px;
+    padding: 10px;
+    background-color: hsl(103, 100%, 34%);
+
+}
+
+.pannels_class_thetford{
+
+    font-size: 24px;
+    font-weight: 300;
+    border: 1px solid white;
+    color: black;
+    border-radius: 15px;
+    padding: 10px;
+    background-color: hsl(283, 100%, 34%);
+
+}
+
+.pannels_class_martlock{
+
+    font-size: 24px;
+    font-weight: 300;
+    border: 1px solid rgb(10, 10, 10);
+    color: black;
+    border-radius: 15px;
+    padding: 10px;
+    background-color: rgb(0, 102, 255);
+
+}
+
+.pannels_class_bridgewatch{
+
+    font-size: 24px;
+    font-weight: 300;
+    border: 1px solid rgb(12, 12, 12);
+    color: rgb(15, 15, 15);
+    border-radius: 15px;
+    padding: 10px;
+    background-color: hsl(39, 100%, 50%);
+
+}
+
+.pannels_class_fortsterling{
+
+    font-size: 24px;
+    font-weight: 300;
+    border: 1px solid rgb(0, 0, 0);
+    color: rgb(27, 27, 27);
+    border-radius: 15px;
+    padding: 10px;
+    background-color: hsl(177, 100%, 93%);
+
+}
+
+.pannels_class{
+
+    font-size: 24px;
+    font-weight: 300;
+    border: 1px solid white;
+    color: white;
+    border-radius: 15px;
+    padding: 10px;
+    background-color: hsl(39, 77%, 13%);
+
+}

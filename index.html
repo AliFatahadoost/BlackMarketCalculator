@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Links -->
+    <link rel="stylesheet" href="./stylesheet.css">
+    <link rel="icon" type="img/png" href="./img/Logo.png">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="viewport" content="width=1920">
+    <title>BlackMarket Calculator</title>
+</head>
+<body>
+    <header>
+        <nav>
+        <div id="nav_div2">
+        <img src="./img/Logo.png">
+        <h1>BlackMarket Calculator</h1>
+        </div>      
+
+        <div id="nav_div1">   
+            <a href="#how_section"><h3>How does it work?</h3></a>
+            <a href="#ban_section"><h3>Is it bannable?</h3></a>
+            <a href="#how_use_section"><h3>How to use it?</h3></a>
+            <a href="#Calculator_section"><h3>Calculator</h3></a>
+        </div>
+        </nav>
+    </header>
+
+
+    <main>
+        <section id="ban_section"></section>
+        <div id="ban_div">
+        <div>
+            <h1>Is it bannable to use?</h1>
+            <h3>in the API that this site uses it says it's not a bannable offense to use external info and this sites api is not mining any data from the game
+                and it's getting it info from some users sharing info to the api and other then that there is no way that the anti-cheat detects it since it's just a site that is
+                is open on your browser and i have used a custom version for 2 years now so, i believe it's not bannable BUT it's your account and 
+                do what ever you think is safest for your account i'm not accepting any credibility for it
+            </h3>
+        </div>
+        </div>
+
+        <section id="how_section"></section>
+        <div id="how_div">
+        <div>
+            <h1>How does it work?</h1>
+            <h3>
+                it takes material prices from the api for the city you tell it to. after that it checks if the none-artifact weapons or armors are profitable if they are and the
+                profit margin is larger then the number you tell it, after that it's gonna go through a list of items and sees if they sell for a higher price
+                then the crafting cost plus your profit margin, if they do they are gonna be displayed. in addition to that you are gonna see how many
+                of what resourse you need to craft the items and how many of which item you should craft for it to sell fast.
+            </h3>
+        </div>
+        </div>
+
+        <section id="how_use_section"></section>
+        <div id="how_use_div">
+        <div>
+            <h1>How to use it?</h1>
+            <h3>
+                0- you insert your server before everything <br><br>
+                1- you insert the city you want to buy the materials from <br><br>
+                2- you insert how much should the minimum profit margin should be <br><br>
+                3- you recive a list of items with info about it <br><br>
+                4- buy as many as the list tells you from the given items that it tells you to for the given items tier <br><br>
+                5- craft as many items as it tells you to and then enjoy the profits
+            </h3>
+        </div>
+        </div>
+
+        <form>
+            <label>YOUR SERVER (europe, east, west) :</label>
+            <input value="west" id="server_inp" type="text">
+            <br>
+            <br>
+            <label>HOME CITY(thetford, martlock, ...) :</label>
+            <input value="bridgewatch" id="city_inp" type="text">
+            <br>
+            <br>
+            <label>PROFIT Percentage (how much of the cost you should profit for it to be displayed):</label>
+            <input value="20" id="profit_margin_inp" type="text">
+            <br>
+            <br>
+            <label>Resourse Return Rate percentage :</label>
+            <input value="15.2" id="resourse_return_rate_inp" type="text">
+            <br>
+            <br>
+            <h1 id="submit_button">submit</h1>
+        </form>
+    </main>
+    <br>
+    
+    <div id="prices_div"></div>
+    <script src="./javascript.js"></script>
+    <section id="Calculator_section"></section>
+</body>
+</html>
